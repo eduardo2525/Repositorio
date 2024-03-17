@@ -27,6 +27,31 @@
   cursor: pointer;
 }
 
+.about {
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about__Photograph {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about__Photograph__img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.about__me {
+  width: 700px;
+  height: 400px;
+  background-color: blue;
+}
+
 * {
   margin: 0;
   padding: 0;
